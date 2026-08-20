@@ -107,7 +107,7 @@ table.ec td{padding:3px 8px;border-bottom:1px solid #f4f4f4}
     </table>
   </div>
 
-  <div class="sec"><div class="sec-lbl">Sentiment</div><table style="border-collapse:collapse;font-size:13px"><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">VIX</td><td style="font-weight:600;padding:2px 0">16.01</td></tr><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">AAII</td><td style="font-weight:600;padding:2px 0">Bulls 35% / Bears 38% <span style="color:#999;font-size:11px">Bulls -3 / Bears +7 vs avg, spread -3.2 (-10 vs avg)</span></td></tr><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">Fear &amp; Greed</td><td style="font-weight:600;padding:2px 0">52 &mdash; Neutral</td></tr><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">HY OAS</td><td style="font-weight:600;padding:2px 0">273 bps <span style="color:#c0392b;font-weight:bold;font-size:11px">COMPLACENT</span></td></tr><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">Put/Call</td><td style="font-weight:600;padding:2px 0">0.80</td></tr><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">Buffett Indicator</td><td style="font-weight:600;padding:2px 0">219% <span style="color:#c0392b;font-weight:bold;font-size:11px">OVERVALUED</span> <span style="color:#999;font-size:11px">(2.1 SD above)</span></td></tr></table></div>
+  <div class="sec"><div class="sec-lbl">Sentiment</div><table style="border-collapse:collapse;font-size:13px"><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">VIX</td><td style="font-weight:600;padding:2px 0">16.01</td></tr><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">AAII</td><td style="font-weight:600;padding:2px 0">Bulls 36% / Bears 40% <span style="color:#27ae60;font-weight:bold;font-size:11px">contrarian BULLISH</span> <span style="color:#999;font-size:11px">Bulls -2 / Bears +9 vs avg, spread -4.4 (-11 vs avg)</span></td></tr><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">Fear &amp; Greed</td><td style="font-weight:600;padding:2px 0">52 &mdash; Neutral</td></tr><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">HY OAS</td><td style="font-weight:600;padding:2px 0">273 bps <span style="color:#c0392b;font-weight:bold;font-size:11px">COMPLACENT</span></td></tr><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">Put/Call</td><td style="font-weight:600;padding:2px 0">0.80</td></tr><tr><td style="color:#666;padding:2px 12px 2px 0;white-space:nowrap">Buffett Indicator</td><td style="font-weight:600;padding:2px 0">219% <span style="color:#c0392b;font-weight:bold;font-size:11px">OVERVALUED</span> <span style="color:#999;font-size:11px">(2.1 SD above)</span></td></tr></table></div>
 
   <div class="sec">
     <div class="sec-lbl">Signals</div>
@@ -252,14 +252,14 @@ table.ec td{padding:3px 8px;border-bottom:1px solid #f4f4f4}
 
   <div class="ftr">
     N&times; = N independent technical signals at that level &nbsp;&middot;&nbsp; Credits via Black-Scholes, verify in TWS before trading.
-    &nbsp;&nbsp; Generated 2026-08-20 23:02 Amsterdam
+    &nbsp;&nbsp; Generated 2026-08-20 23:46 Amsterdam
     &nbsp;&nbsp; <span id="refresh-time" style="color:#bbb">updating...</span>
   </div>
 
 </div>
 <script>
-const BAKED_PRICES = {"BRK-B":496.86,"NVDA":216.85,"AVGO":364.03,"GOOGL":340.67,"META":545.83,"AMZN":260.11,"MSFT":481.15,"AAPL":311.3,"TSLA":345.13,"LLY":1244.4,"JPM":351.55,"COST":933.51,"UNH":384.85,"NFLX":80.14,"XOM":166.15,"WMT":103.84,"MA":573.85,"V":365.73,"ORCL":142.07,"HD":334.49,"JNJ":267.37,"ABBV":261.83,"BAC":61.86,"AMD":469.45,"PG":142.97,"CRM":205.43,"GS":1001.95,"PLTR":173.96,"NOW":129.75,"MRK":148.99};
-const BAKED_TS = "23:02";
+const BAKED_PRICES = {"NVDA":216.85,"META":545.83,"AMZN":260.11,"GOOGL":340.67,"BRK-B":496.86,"MSFT":481.15,"AAPL":311.3,"AVGO":364.03,"TSLA":345.13,"UNH":384.85,"NFLX":80.14,"JPM":351.55,"COST":933.51,"XOM":166.15,"WMT":103.84,"LLY":1244.4,"V":365.73,"ORCL":142.07,"MA":573.85,"HD":334.49,"JNJ":267.37,"BAC":61.86,"ABBV":261.83,"AMD":469.45,"GS":1001.95,"PG":142.97,"CRM":205.43,"PLTR":173.96,"MRK":148.99,"NOW":129.75};
+const BAKED_TS = "23:46";
 
 const FV = 20.0;
 async function fetchSpx() {
